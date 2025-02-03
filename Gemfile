@@ -71,11 +71,6 @@ end
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 
-gem 'bootstrap', '~> 5.3.0'
-gem 'jquery-rails'
-
-gem "sassc-rails"
-
 gem 'devise'
 
 gem 'kaminari'
@@ -83,3 +78,4 @@ gem 'kaminari'
 gem 'enum_help'
 
 gem 'devise-i18n'
+gem "ffi", "~> 1.17"

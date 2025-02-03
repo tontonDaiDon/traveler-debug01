@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   devise_for :users
   
   resources :users, only:[:index, :show, :edit, :update] do
@@ -23,4 +24,6 @@ Rails.application.routes.draw do
   
   # Defines the root path route ("/")
   # root "posts#index"
+  get 'top' => 'homes#top'
+  
 end
